@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="..\style.css"?>
+<books>
+	<heading>Welcome To Book Store </heading>
+	<book>
+		<title>Title -: The White Tiger</title>
+		<author>Author -: Aravind Adiga</author>
+		<publisher>Publisher -: HarperCollins India</publisher>
+		<edition>Edition -: first</edition>
+		<price> Price -: 399</price>
+	</book>
+	<book>
+		<title>Title -: A Suitable Boy</title>
+		<author>Author -: vikram seth</author>
+		<publisher>Publisher -: Penguin india</publisher>
+		<edition>Edition -: first</edition>
+		<price>Price -: 799</price>
+	</book>
+	<book>
+		<title>Title -: The God of Small thingd</title>
+		<author>Author -: Arundhati Roy</author>
+		<publisher>Publisher -: Penguin india</publisher>
+		<edition>Edition -: first</edition>
+		<price>Price -: 499</price>
+	</book>
+	<book>
+		<title>Title -: Train to Pakistan</title>
+		<author>Author -: Khushwant Singh</author>
+		<publisher>Publisher -: Rolli books</publisher>
+		<edition>Edition -: Revised</edition>
+		<price>Price -: 295</price>
+	</book>
+	<book>
+		<title>Title -: Midnights children </title>
+		<author>Author -: Salman Rushdie</author>
+		<publisher>Publisher -: penguin india</publisher>
+		<edition>Edition -: first</edition>
+		<price>Price -: 599</price>
+	</book>
+</books>

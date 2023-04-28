@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Heading tags -->
+	<h1>Registration Form</h1>
+	<h2>Please fill in your details</h2>
+	
+	<!-- Form -->
+	<form>
+		<!-- Basic tags and attributes -->
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password" required>
+
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" required>
+
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender" required>
+			<option value="">--Please select--</option>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+
+		<!-- Lists -->
+		<fieldset>
+			<legend>Interests:</legend>
+			<ul>
+				<li><input type="checkbox" id="music" name="interest" value="music"><label for="music">Music</label></li>
+				<li><input type="checkbox" id="movies" name="interest" value="movies"><label for="movies">Movies</label></li>
+				<li><input type="checkbox" id="sports" name="interest" value="sports"><label for="sports">Sports</label></li>
+			</ul>
+		</fieldset>
+
+		<!-- Images -->
+		<label for="profile-pic">Profile Picture:</label>
+		<input type="file" id="profile-pic" name="profile-pic" accept="image/*" required>
+
+		<!-- Tables -->
+		<table>
+			<caption>Contact Information</caption>
+			<tr>
+				<th>Type</th>
+				<th>Information</th>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td><input type="tel" name="phone"></td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+		</table>
+
+		<!-- Inline CSS -->
+		<button type="submit" style="background-color: green; color: white; padding: 10px;">Submit</button>
+		<button type="reset" style="background-color: red; color: white; padding: 10px;">Reset</button>
+	</form>
+</body>
+</html>
