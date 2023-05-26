@@ -1,0 +1,40 @@
+import pandas as pd
+     
+
+import numpy as np
+     
+
+import matplotlib.pyplot as plt
+     
+
+import seaborn as sns
+     
+
+dataset = sns.load_dataset('titanic')
+     
+
+dataset.head()
+-----------------------------------------------------
+sns.jointplot(x='sex',y='alive',data=dataset);
+--------------------------------------------------------
+
+sns.jointplot(x='age',y='fare',data=dataset);
+
+--------------------------------------------------------
+
+sns.histplot(dataset['fare'],kde=True,linewidth=0);
+
+-------------------------------------------------------
+
+sns.histplot(dataset['age'],kde=True,linewidth=0);
+
+--------------------------------------------------------
+
+sns.boxplot(x='sex',y='age',data=dataset,hue="survived");
+
+-----------------------------------------------------------
+
+sns.boxplot(x='sex',y='fare',data=dataset,hue="survived");
+
+---------------------------------------------------------------
+

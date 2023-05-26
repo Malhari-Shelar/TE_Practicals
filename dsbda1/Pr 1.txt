@@ -1,0 +1,20 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+weather = pd.read_csv('weatherAUS.csv')
+weather.head(5)
+------------------------------------------------------------------
+weather.info()
+------------------------------------------------------------------
+weather.describe(include='all')
+------------------------------------------------------------------
+import warnings
+warnings.filterwarnings('ignore')
+print(weather.std())
+print('____________________________________________')
+print(weather.median())
+------------------------------------------------------------------
+weather.shape
+------------------------------------------------------------------
+weather.isnull().sum()
